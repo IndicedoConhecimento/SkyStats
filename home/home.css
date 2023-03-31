@@ -1,0 +1,14 @@
+body{
+    
+    background-color: rgb(46, 43, 43);
+    color: white;
+    text-align: center;
+    font-family: cursive;
+
+}
+
+.h{
+    background-color: black;
+    border-radius: 10px;
+    color: rgb(202, 195, 195);
+}
