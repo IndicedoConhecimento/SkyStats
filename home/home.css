@@ -1,3 +1,8 @@
+*{
+    color: white;
+    font-size: 30px;
+}
+
 body{
     
     background-color: rgb(46, 43, 43);
@@ -11,4 +16,30 @@ body{
     background-color: black;
     border-radius: 10px;
     color: rgb(202, 195, 195);
+    padding: 4px;
+}
+
+a{
+    color: yellow;
+}
+
+input{
+    background-color: rgb(46, 45, 45);
+    border-radius: 10px;
+}
+input:hover{
+    background-color: rgb(78, 76, 76);
+    border-radius: 10px;
+}
+
+.bnt{
+    cursor: pointer;
+    background-color: rgb(145, 12, 12);
+}
+
+.r{
+    background-color: rgb(182, 179, 179);
+    color: black;
+    padding: 2px;
+    border-radius: 10px;
 }
