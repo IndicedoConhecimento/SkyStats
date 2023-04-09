@@ -44,3 +44,26 @@ input:hover{
     border-radius: 10px;
 }
 
+.damage{
+    color: rgb(202, 17, 17);
+}
+
+.strength{
+    color: rgb(134, 20, 20);
+}
+
+.crit{
+    color: blue;
+}
+
+.sharp{
+    color: aqua;
+}
+
+.fs{
+    color: goldenrod;
+}
+
+.ultimate{
+    color: rgb(228, 75, 215);
+}

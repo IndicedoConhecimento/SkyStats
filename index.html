@@ -19,17 +19,20 @@
 
     <fieldset class="h">
         
-        Simple Damage Calc [v1.2] <br><br>
-        <input type="checkbox" name="oneforall" id="ofa" onclick="ofa()"><label for="ofa">One For All</label><br>
-        Damage: <input type="number" id="damage" name="damage"><br>
-        Strength: <input type="number" id="strength"><br>
-        Critcal: <input type="number" id="crit"><br>
-        Sharpness: <input type="number" id="sharp"><br><br>
+        Simple Damage Calc [v1.5] <br><br>
+        <input type="checkbox" name="oneforall" id="ofa" onclick="ofa()"><label for="ofa" class="ultimate">One For All</label><br>
+        <span class="damage">Damage</span>: <input type="number" id="damage" name="damage"><br>
+        <span class="strength">Strength</span>: <input type="number" id="strength"><br>
+        <span class="crit">Critcal</span>: <input type="number" id="crit"><br>
+        <span class="sharp">Sharpness</span>: <input type="number" id="sharp"><br>
+        <span class="fs">First Strike</span>: <input type="number" id="fs"><br><br>
         <input type="button" value="Calculate" onclick="calculo()" class="bnt"><br><br>
         <span class="r" id="result">-</span>
-    </fieldset>
 
-    <script src="script.js"></script>
+
+        <!--Script-->
+        <script src="script.js"></script>
+    </fieldset>
 
 </body>
 </html>
